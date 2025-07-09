@@ -139,8 +139,9 @@ The extension is necessary for Vale's format-sensitive parsing.")
                  (car pos) (cdr pos)
                  (assoc-default .Severity flymake-vale--level-map
                                 'string-equal 'error)
-                 (format "%s [vale:%s:%s]" .Message
-                         (car check) (cadr check)))
+                 (list (format "vale:%s" (car check))
+                       (cadr check)
+                       .Message))
                 check-list))))
     check-list))
 
