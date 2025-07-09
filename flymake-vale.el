@@ -9,7 +9,7 @@
 ;; Version: 0.0.2
 ;; Keywords:
 ;; Homepage: https://github.com/tpeacock19/new
-;; Package-Requires: ((emacs "27.1") (flymake "0.22")
+;; Package-Requires: ((emacs "27.1") (flymake "1.4.1")
 ;;  (let-alist "1.0.4") (compat "29.1.4.4"))
 ;;
 ;; This file is not part of GNU Emacs.
